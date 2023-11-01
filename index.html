@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="./assets/fonts/HankenGrotesk-VariableFont_wght.ttf" />
+</head>
+
+<body>
+
+  <section class="container">
+    <section class="score-section">
+      <div>
+        <h3 class="score-title">Your Result</h3>
+        <p class="final-score">76 <span>of 100</span></p>
+        <p class="score-description">
+          <span>Great</span>
+          <p>
+            You scored higher than 65% of the people who have taken these
+            tests.
+          </p>
+        </p>
+      </div>
+    </section>
+
+    <section class="summary-section">
+      <h2>Summary</h2>
+      <div id="reaction">
+        <span class="type">Reaction</span>
+        <span class="score"><strong>80</strong> / 100</span>
+      </div>
+
+      <div id="memory">
+        <span class="type">Memory</span>
+        <span class="score"><strong>92</strong> / 100</span>
+      </div>
+
+      <div id="verbal">
+        <span class="type">Verbal</span>
+        <span class="score"><strong>61</strong> / 100</span>
+      </div>
+
+      <div id="visual">
+        <span class="type">Visual</span>
+        <span class="score"><strong>72</strong> / 100</span>
+      </div>
+
+      <input type="button" value="Continue">
+
+    </section>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
